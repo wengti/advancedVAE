@@ -1,4 +1,4 @@
-# simpleVAE
+# advancedVAE
 
 ## Credits & Acknowledgments  
 This project is a reimplementation of [VAE-Pytorch] by [explainingai-code] (https://github.com/explainingai-code/VAE-Pytorch).  
