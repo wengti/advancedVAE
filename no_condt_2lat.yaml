@@ -1,0 +1,26 @@
+
+enc_conv_channels: [1, 16, 32, 64]
+enc_conv_kernel_size: [2, 2, 2]
+enc_conv_stride: [2, 2, 2]
+enc_conv_act: 'leaky'
+
+enc_fc_layers: [576, 128, 2]
+enc_fc_mean_act: 'none'
+enc_fc_log_var_act: 'none'
+
+dec_fc_layers: [2, 128, 576]
+dec_fc_act: 'leaky'
+
+dec_tconv_channels: [64, 32, 16, 1]
+dec_tconv_kernel_size: [3, 2, 2]
+dec_tconv_stride: [2, 2, 2]
+dec_tconv_act: 'tanh'
+
+latent_dim: 2
+num_classes: 10
+conditional: False
+
+task_name: "no_condt_2lat"
+batch_size: 32
+learning_rate: 0.001
+epochs: 10
