@@ -8,6 +8,7 @@ The code has been rewritten from scratch while maintaining the core concepts and
 ## Features  
 - By modifying the config files, VAE with various latent dimensions and conditional VAE can be built.
 
+## Description of Files
 - **extract_mnist.py** - Extracts MNIST data from the CSV file.  
 - **load_data.py** - Creates a custom dataset.
 - **model.py** - Compatible with .yaml config files to create various VAE models. 
