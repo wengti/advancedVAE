@@ -14,7 +14,7 @@ The code has been rewritten from scratch while maintaining the core concepts and
 - **engine.py** - Defines the train and test steps (for 1 epoch).  
 - **main.py** - Trains the model
 - **infer.py**
-  a) Reconstruct images
-  b) Visualize scatter plot in latent dimensions
-  c) Visualize images along the line interpolated between 2 images in the latent dimensions
-  d) Visualize manifold
+  1. Reconstruct images
+  2. Visualize scatter plot in latent dimensions
+  3. Visualize images along the line interpolated between 2 images in the latent dimensions
+  4. Visualize manifold
